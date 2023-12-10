@@ -1,0 +1,21 @@
+[project]
+name = "neo4jconnector"
+version = "0.0.1"
+authors = [
+    { name="Nicholas LePar", email="nicholaslepar@gmail.com" },
+]
+description = "Python interface to connect to Neo4J"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/NicholasLePar/neo4jconnector"
+Issues = "https://github.com/NicholasLePar/neo4jconnector/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
